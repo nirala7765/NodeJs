@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <button id="btn-login">Login</button>
+
+
+
+
+        <script>
+
+
+            var btn = document.getElementById('btn-login');
+            btn.onclick = function () {
+                console.log('First click');
+            }
+            btn.onclick = function () {
+                console.log('Second click');
+            }
+            btn.addEventListener('click', function(){
+                console.log('Third click');
+
+            })
+               
+            
+            btn.addEventListener('click', function (){
+                console.log('Fourth click');
+
+
+            })
+            
+
+        </script>
+    </body>
+
+</html>

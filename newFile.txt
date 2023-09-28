@@ -1,0 +1,1 @@
+Hello Everyone I am Writing in file usin Sync Functions  I am Appending some data to the new file
